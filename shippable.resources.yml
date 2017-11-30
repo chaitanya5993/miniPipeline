@@ -34,6 +34,3 @@ resources:
      method: irc
      recipients:
        -  "chat.freenode.net#test-rc123"
-
-
-
