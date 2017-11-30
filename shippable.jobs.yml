@@ -26,8 +26,7 @@ jobs:
       - IN: pipelines-demo-manifest-mini
       - OUT: pipelines-demo-out
       - TASK:
-          script:
-            - shipctl post_resource_state pipelines-demo-out versionName $BUILD_NUMBER
+          script: shipctl post_resource_state pipelines-demo-out versionName $BUILD_NUMBER
 
 
   - name: runSh3-mini
