@@ -43,3 +43,12 @@ resources:
       isPull: false
     seed:
       versionName: "latest"
+
+  - name: pipelines-orphan-test
+    type: image
+    integration: shipdeploy
+    pointer:
+      sourceName: "shippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamples/samplepipelinesdemo"
+      isPull: false
+    seed:
+      versionName: "latest"
