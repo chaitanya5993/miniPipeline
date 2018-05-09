@@ -62,4 +62,4 @@ resources:
   - name: trigger
     type: trigger
     versionTemplate:
-      counter: '1'
+      counter: '2'
