@@ -61,3 +61,5 @@ resources:
       versionName: 0.0.1
   - name: trigger
     type: trigger
+    versionTemplate:
+      counter: '1'
