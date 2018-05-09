@@ -67,3 +67,5 @@ resources:
     type: time
     versionTemplate:
       interval: '1'
+  - name: state
+    type: state
