@@ -50,7 +50,10 @@ script:
 resources:
   - name: file
     type: file
-    integration: file-int
+    integration: shipdeploy
+    versionTemplate:
+      versionName: vn
+      sourceName: sn
   - name: version
     type: version
     versionTemplate:
