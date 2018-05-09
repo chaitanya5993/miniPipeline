@@ -63,3 +63,7 @@ resources:
     type: trigger
     versionTemplate:
       counter: '1'
+  - name: time
+    type: time
+    versionTemplate:
+      interval: 1
