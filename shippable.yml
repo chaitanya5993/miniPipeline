@@ -132,8 +132,8 @@ resources:
     seed:
       versionName: latestresources:
 
-  - name:             version
-    type:             version
+  - name: version
+    type: version
     versionTemplate:
       versionName: "0.0.1"
     
