@@ -66,4 +66,4 @@ resources:
   - name: time
     type: time
     versionTemplate:
-      interval: 1
+      interval: '1'
