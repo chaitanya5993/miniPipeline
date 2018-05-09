@@ -130,7 +130,7 @@ resources:
         shippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamplesshippablesamples/samplepipelinesdemo
       isPull: false
     seed:
-      versionName: latestresources:
+      versionName: latestresources
 
   - name: version
     type: version
