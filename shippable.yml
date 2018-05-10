@@ -84,3 +84,4 @@ resources:
     type: params
     versionTemplate:
       params:
+        KEY1: "value1" 
