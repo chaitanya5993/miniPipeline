@@ -77,4 +77,4 @@ resources:
     type: externalCIServer
   - name: integration
     type: integration
-    integration: intName
+    integration: shipdeploy
