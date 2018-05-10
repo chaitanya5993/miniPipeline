@@ -89,6 +89,5 @@ resources:
   - name: notification
     type: notification
     versionTemplate:
-      method: null
       recipients:
-        - me
+        - speedblaze@gmail.com
