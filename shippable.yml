@@ -30,18 +30,8 @@ script:
 #        - "@VootlaChaitanya"
 #        - "#roomOne"
 #      on_success: always
-#      on_failure: alwaysjobs:jobs:
+#      on_failure: always
 jobs:
-  - name: manifest-test-child
-    type: manifest
-    steps:
-      - IN: manifest-test
-        switch: 'off'
-      - IN: time
-      - IN: integration
-      - IN: version
-        switch: 'off'
-      - TASK: managed
   - name: manifest-test
     type: manifest
     steps:
@@ -53,6 +43,17 @@ jobs:
       - IN: externalCIServer
         switch: 'off'
       - OUT: state
+  - name: manifest-test-child
+    type: manifest
+    steps:
+      - TASK: managed
+      - IN: params
+        switch: 'off'
+      - IN: manifest-test
+      - IN: time
+      - IN: integration
+      - IN: version
+        switch: 'off'
 resources:
   - name: file
     type: file
@@ -79,3 +80,7 @@ resources:
   - name: integration
     type: integration
     integration: shipdeploy
+  - name: params
+    type: params
+    versionTemplate:
+      params:
