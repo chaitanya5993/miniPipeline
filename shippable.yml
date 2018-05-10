@@ -92,4 +92,4 @@ resources:
       method: hipchat
       recipients:
         - speedblaze@gmail.com
-    integration: ads
+    integration: shipdeploy
