@@ -89,5 +89,7 @@ resources:
   - name: notification
     type: notification
     versionTemplate:
+      method: hipchat
       recipients:
         - speedblaze@gmail.com
+    integration: ads
