@@ -86,3 +86,9 @@ resources:
       params:
         KEY1: value1 
         k: v 
+  - name: notification
+    type: notification
+    versionTemplate:
+      method: null
+      recipients:
+        - me
